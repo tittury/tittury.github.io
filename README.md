@@ -18,13 +18,12 @@ Jekyll + Bootstrap + GitHub = responsiivinen single page sivu, jonka päivitys j
 ===
 Uudet "sivut" luodaan _features -kansioon. Sivuissa käytetään [Markdown](https://daringfireball.net/projects/markdown/) -syntaksia. Sivutiedostoissa kannattaa käyttää 01-99 numerointia, jolla Jekyll järjestää valikon ja listauksen automaattisesti. Jokaisen tiedoston alkuun tulee lisätä kuvauskentät. Kuvaukseen voi lisätä kuvan osoitteen, jolloin kuva lisätään images-kansioon. 
 
->---
-id: tittu
-name: TiTTu ry?
-heading: TiTTu ry  
-subheading:  Tampereen TietoTeekkarien tuki ry
-image: './images/tittu_logo.png'
----
+>id: tittu
+>name: TiTTu ry?
+>heading: TiTTu ry  
+>subheading:  Tampereen TietoTeekkarien tuki ry
+>image: './images/tittu_logo.png'
+
 
 **Lokaali devaus**
 ===
