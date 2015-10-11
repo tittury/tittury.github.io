@@ -2,7 +2,7 @@
 id: hallitus
 name: Hallitus
 heading: Hallitus 2015
-subheading: Ja toimihenkilö
+subheading: ja toimihenkilö
 ---
 
 **Puheenjohtaja** 			Akseli Karvinen   
@@ -16,3 +16,5 @@ subheading: Ja toimihenkilö
 **Mordorin kätyri** 		Juuso Piskonen  
 
 **Toimihenkilö M.** 		Miika Heinonen
+
+Edellisten vuosien hallitukset on listattu [Vanhat hallitukset](/vanhat_hallitukset/ "Vanhat hallitukset") -linkin alla.

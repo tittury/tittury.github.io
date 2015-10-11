@@ -1,0 +1,12 @@
+<main>
+  {% for hallitus in site.vanhat_hallitukset reversed %}
+    <hr id='{{ hallitus.id }}'>
+
+    <section>
+      <h2>{{ hallitus.heading }}<span>{{ hallitus.subheading }}</span></h2>
+      <div class='lead'>{{ hallitus.content }}</div>
+    </section>
+  {% endfor %}
+
+  <hr>
+</main>

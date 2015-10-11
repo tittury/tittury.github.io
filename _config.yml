@@ -7,6 +7,7 @@ sass:
   style: :compressed
 collections:
   - features
+  - vanhat_hallitukset
 exclude:
   - Gemfile
   - Gemfile.lock

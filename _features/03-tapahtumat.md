@@ -2,7 +2,6 @@
 id: tapahtumat
 name: Tapahtumat
 heading: Tapahtumat
-subheading: Jotain kivaa alumneille
 ---
 
 **Alumnipäivä 14.11.2015**

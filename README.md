@@ -38,3 +38,15 @@ Jekyll on ihan pirun näppärä ja tukee hyvin lokaalia kehittämistä. Asenna k
 > $ jekyll serve
 
 Jolloin Jekyll starttailee lokaalisti http://localhost:4000 -osoitteeseen. Lisäksi se tarkkailee tiedostomuutoksia jatkuvasti, joten tiedoston muokkaus ja tallentaminen riittää sivujen uudelleen generoimiseen ja päivittämiseen. (Poislukien _config.yml)
+
+
+**Vanhat hallitukset**
+===
+Vanhat hallitukset löytyvat _vanhat_hallitukset hakemistosta. Kopio joku
+uudempi vuosi pohjaksi, esim vuodelle 2013:
+
+> $ cd _vanhat_hallitukset/
+> $ cp 2015.md 2013.md
+
+Tämän jälkeen tee muutokset 2013.md:hen. Vanhat hallitukset listataan sivuille
+reversed järjestyksessä joten pidetään tiedostonimet vain vuosien mukaan.
