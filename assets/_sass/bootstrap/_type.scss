@@ -101,6 +101,7 @@ mark,
 // Contextual colors
 .text-muted {
   color: $text-muted;
+  padding-left: 8px;
 }
 
 @include text-emphasis-variant('.text-primary', $brand-primary);
