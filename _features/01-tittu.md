@@ -1,6 +1,6 @@
 ---
 id: tittu
-name: TiTTu ry?
+name: TiTTu ry
 heading: TiTTu ry  
 subheading:  Tampereen TietoTeekkarien tuki ry
 image: './images/tittu_logo.png'
