@@ -13,7 +13,8 @@ main {
   h2 {
     font-size: 50px;
     span { @extend .text-muted;
-           padding-left: 8px; }
+           padding-left: 8px;
+           font-size: 25px; }
   }
 
   @media(max-width:1200px) {

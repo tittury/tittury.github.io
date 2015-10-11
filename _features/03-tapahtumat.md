@@ -14,7 +14,7 @@ Luvassa on
 
 * TTY:n uusi KampusAreena
 * Uusi Teekkarimuseo
-* "Alumnien lyhyitä puheenvuoroja"
+* _"Alumnien lyhyitä puheenvuoroja"_
 * Ja tietysti saunomista :) (Hermian sauna)
 
 Jos olisit kiinnostunut pitämään pienen puheenvuoron, vaikka jostain uudesta teknologiasta tai ehkäpä rakkaimmasta teekkarimuistostasi, käy ilmoittamassa halukkuutesi [täällä](https://docs.google.com/forms/d/1sLaEgEuou11C6ENtYn9fzFZQND_B8ksT6xUJYf7M7S0/viewform "Ilmokilke").
