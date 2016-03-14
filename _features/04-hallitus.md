@@ -2,7 +2,6 @@
 id: hallitus
 name: Hallitus
 heading: Hallitus 2016
-subheading: Ja toimihenkilö
 ---
 
 **Puheenjohtaja** 		  Viivi Ilvesmäki  
