@@ -4,20 +4,14 @@ name: Tapahtumat
 heading: Tapahtumat
 ---
 
-**Alumnipäivä 14.11.2015**
+**Alumnien After Workit Maaliskuu 2016**
 ===
 
-Onko vielä vapaata lauantaina 14.11.? No nyt se ainakin on varattu ;) TiTen ja TiTTun järjestämä Alumnipäivä nääs on silloin. Aikataulu tarkentuu myöhemmin, mutta voit vain käydä pyörähtämässä tai viihtyä pidempäänkin! Lisätietoja tullaan päivittämään tapahtumaan [Facebookissa](https://www.facebook.com/events/1650810668525636/ "Alumnipäivä @Fabo").
-
-Luvassa on
-
-* TTY:n uusi KampusAreena
-* Uusi Teekkarimuseo
-* _"Alumnien lyhyitä puheenvuoroja"_
-* Ja tietysti saunomista :) (Hermian sauna)
-
-Jos olisit kiinnostunut pitämään pienen puheenvuoron, vaikka jostain uudesta teknologiasta tai ehkäpä rakkaimmasta teekkarimuistostasi, käy ilmoittamassa halukkuutesi [täällä](https://docs.google.com/forms/d/1sLaEgEuou11C6ENtYn9fzFZQND_B8ksT6xUJYf7M7S0/viewform "Ilmokilke").
-Huom, vastaukset julkisia!
-
+Maaliskuussa on taas aika kokoontua yhteen, käydä yksillä ja vaihtaa kuulumiset. Lisätietoja tulee sähköpostilistalle ja Facebookin TiTe Alumnit -ryhmään lähiaikoina! 
 
 Luonnollisesti kuten muutkin TiTen alumnitapahtumat, tämä on suunnattu jo valmistuneille sekä kohta valmistumassa oleville työelämään siirtyneille titeläisille.
+
+**Alumni-picnic Wappuna**
+===
+
+Perinteinen Alumni-picnic koittaa taas Wappuna. Päivämäärä tarkentuu lähiaikoina, mutta tuttuun tapaan tapahtumapaikkana on etunurtsi ja jokin suurempi wapputapahtuma. Täällä pääset hyvällä omatunnolla maistelemaan kuohuviiniä ja fiilistelemään kaihoisasti opiskeluajan kultaisia wappumuistoja.
