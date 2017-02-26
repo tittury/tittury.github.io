@@ -2,7 +2,6 @@
 id: hallitus
 name: Hallitus
 heading: Hallitus 2017
-subheading: Ja toimihenkilö
 ---
 
 Puheenjohtaja			Noora Vainio  
