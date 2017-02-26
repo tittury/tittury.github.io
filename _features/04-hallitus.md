@@ -1,17 +1,15 @@
 ---
 id: hallitus
 name: Hallitus
-heading: Hallitus 2016
+heading: Hallitus 2017
+subheading: Ja toimihenkilö
 ---
 
-**Puheenjohtaja** 		  Viivi Ilvesmäki  
-**Rahastonhoitaja** 		Sauli Nevalainen  
-**Sihteeri** 				    Noora Vainio  
-**Hallituksen jäsen** 	Atte Saarinen (VPJ)
-**Hallituksen jäsen** 	Miika Heinonen  
-**Hallituksen jäsen**		Veli-Matti Korpelainen  
-**Hallituksen jäsen**		Panu Kortelainen
-**Hallituksen jäsen**		Juuso Piskonen 
-
-
-Edellisten vuosien hallitukset on listattu [Vanhat hallitukset](/vanhat_hallitukset/ "Vanhat hallitukset") -linkin alla.
+Puheenjohtaja 			Noora Vainio  
+Rahastonhoitaja 		Viivi Ilvesmäki  
+Sihteeri 			Emmi Hallikainen  
+Hallituksen jäsen 	Mervi Leppäkorpi (VPJ)
+Hallituksen jäsen 	Miika Heinonen  
+Hallituksen jäsen		Atte Saarinen  
+Hallituksen jäsen		Tommi Linnamaa
+Hallituksen jäsen		Juuso Piskonen 

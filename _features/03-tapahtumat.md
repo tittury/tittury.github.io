@@ -2,12 +2,13 @@
 id: tapahtumat
 name: Tapahtumat
 heading: Tapahtumat
+subheading: Jotain kivaa alumneille
 ---
 
-**Alumnien After Workit Maaliskuu 2016**
+**Alumnien After Workit Kevät 2017**
 ===
 
-Maaliskuussa on taas aika kokoontua yhteen, käydä yksillä ja vaihtaa kuulumiset. Lisätietoja tulee sähköpostilistalle ja Facebookin TiTe Alumnit -ryhmään lähiaikoina! 
+Keväällä lienee taas ajankohtaista kömpiä talviteloilta, käydä yksillä ja vaihtaa kuulumiset. Aftereita järjestetään tällä hetkellä Tampereella ja Helsingissä. Lisätietoja tulee sähköpostilistalle ja Facebookin TiTe Alumnit -ryhmään lähiaikoina! 
 
 Luonnollisesti kuten muutkin TiTen alumnitapahtumat, tämä on suunnattu jo valmistuneille sekä kohta valmistumassa oleville työelämään siirtyneille titeläisille.
 
