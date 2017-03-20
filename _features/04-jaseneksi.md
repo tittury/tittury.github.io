@@ -15,5 +15,5 @@ Jäseneksi voit liittyä helposti alla olevalla PayPal -painikkeella, jonka avul
 <input type="hidden" name="hosted_button_id" value="8RMRATMCBKK2S">
 <input type="submit" class="btn btn-info" name="submit" title="Liity jäseneksi PayPal -maksun kautta." value="PayPal - Liity ja maksa">
 <a href="https://goo.gl/forms/YZABx6PvPFR7jzRn2" class="btn btn-info" role="button">Lomake - Liity ja maksa tilisiirrolla</a>
-</form
+</form>
 </div>
