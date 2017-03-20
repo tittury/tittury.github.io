@@ -9,7 +9,7 @@ TiTTun jäseneksi voivat liittyä kaikki Tampereen TietoTeekkarikillan alumnit j
 
 Jäseneksi voit liittyä helposti alla olevalla PayPal -painikkeella, jonka avulla voit maksaa liittymismaksusi heti käyttäen PayPal -tunnusta tai yleisempiä maksukortteja. PayPal-maksu vaatii, että kotikuntasi on sama kuin asuinpaikkakuntasi. Voit myös liittyä jäseneksi täyttämällä jäsenhakemuslomakkeen, jolloin jäsenmaksutiedot lähetetään sinulle sähköpostitse.
 
-<div class="container">
+<div class="btn-group btn-group-lg">
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="8RMRATMCBKK2S">
