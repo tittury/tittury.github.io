@@ -7,7 +7,7 @@ subheading: Ja tue TiTTun toimintaa
 
 TiTTun jäseneksi voivat liittyä kaikki Tampereen TietoTeekkarikillan alumnit ja alumnihenkiset. Toiminta suuntautuu yhä enemmän alumniyhdistystä kohden, joten sinun mielipiteelläsi ja näkemykselläsi on väliä! Tule mukaan osaksi prosessia ja tue TiTTun toimintaa jäsenmaksullasi! Jäsenmaksu vuodelle 2017 on 5 euroa.  
 
-Jäseneksi voit liittyä helposti alla olevalla PayPal -painikkeella, jonka avulla voit maksaa liittymismaksusi heti käyttäen PayPal -tunnusta tai yleisempiä maksukortteja. PayPal-maksu vaatii, että kotikuntasi on sama kuin asuinpaikkakuntasi. Voit myös liittyä jäseneksi täyttämällä jäsenhakemuslomakkeen, jolloin jäsenmaksutiedot lähetetään sinulle sähköpostitse.
+Jäseneksi voit liittyä helposti alla olevalla PayPal -painikkeella, jonka avulla voit maksaa liittymismaksusi heti käyttäen PayPal -tunnusta tai yleisempiä maksukortteja. PayPal-maksu vaatii, että kotikuntasi on sama kuin asuinpaikkakuntasi. PayPal-maksu on toteutettu käyttäen PayPalin subscription -mallia, joten se ilmoittaa maksun olevan toistuva. Ennen seuraavan vuoden jäsenmaksun veloitusta asiasta lähetetään jäsenille ilmoitus. Voit myös liittyä jäseneksi täyttämällä jäsenhakemuslomakkeen, jolloin jäsenmaksutiedot lähetetään sinulle sähköpostitse.
 
 <div class="container">
 <form class="form-inline" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
