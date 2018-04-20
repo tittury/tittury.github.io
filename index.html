@@ -1,10 +1,149 @@
----
-layout: default
-heading: TiTTu ry
-subheading: Tampereen TietoTeekkarien tuki ry
----
 
-<div class="container">
-  {% include features.html %}
-  {% include footer.html %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="theme-color" content="#2196F3">
+    <title>TiTTu ry</title>
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="tittu.css">
+
+  <!-- Compiled and minified JavaScript -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+    $(".button-collapse").sideNav();
+    });
+  </script>
+</head>
+<body id="top">
+
+    <!--Navigation-->
+    <nav class="blue-grey darken-2">
+        <div class="nav-wrapper container">
+            <span class="tittu-header"> Tampereen TietoTeekkarien Alumnit, TiTTu ry </span>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#tittu">TiTTu ry</a></li>
+                <li><a href="#tapahtumat">Tapahtumat</a></li>
+                <li><a href="#jaseneksi">Jäseneksi</a></li>
+                <li><a href="#hallitus">Hallitus</a></li>
+                <li><a href="#yhteystiedot">Yhteystiedot</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li><a href="#tittu">TiTTu ry</a></li>
+                <li><a href="#tapahtumat">Tapahtumat</a></li>
+                <li><a href="#jaseneksi">Jäseneksi</a></li>
+                <li><a href="#hallitus">Hallitus</a></li>
+                <li><a href="#yhteystiedot">Yhteystiedot</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="tittu" class="section scrollspy">
+        <div class="container">
+            <div class="row">
+                <div class="col s2 hide-on-med-and-down">
+                    <img src="./img/tittu_logo.png" class="center-align" style="width: 98%;" />
+                </div>
+                <div class="col s10">
+                    <p class="left">Valmistuminen ei suinkaan tarkoita, että kaikista opiskelijakavereista ja -menoista pitäisi luopua. Valmistumisesi jälkeen sinusta huolen pitää alumnijärjestö TiTTu ry. TiTTu ry on aiemmin Tampereen TietoTeekkareiden Tuki ry:nä tunnettu yhdistys, joka on perustettu vuonna 1994 tukemaan Tampereen TietoTeekkarikillan toimintaa. TiTe on jo pitkään pärjännyt omillaan, joten TiTTu on päättänyt keskittyä alumnitoiminnan herättelyyn järjestämällä tapahtumia valmistuneille ja työelämään siirtyneille. TiTTu:n jäseneksi ovat kaikki Tampereen TietoTeekkarikillan alumnit ja alumnihenkiset tervetulleita. Jäseneksi pääset liittymään sivuston <a href="#jaseneksi">Jäseneksi-osion</a> kautta. </p> 
+                    <p class="left">Jotta saisit tietoa TiTTun tarjoamista tapahtumista, liity killan alumnien omalle <a href="http://tite.cs.tut.fi/cgi-bin/mailman/listinfo/alumnit">sähköpostilistalle</a>. Listalle tulevan sähköpostin määrä on vähäinen eikä kuormita postilaatikkoa. Muista liittyä myös Facebookissa ryhmään <a href="https://www.facebook.com/groups/1410574695905154/">TiTe-Alumnit</a> ja Linkedinissä ryhmään <a href="https://www.linkedin.com/groups/4647152">TiTe Alumni!</a></p> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div id="tapahtumat" class="section scrollspy">
+    <div class="container">
+        <div class="row">
+            <div  class="col s12">
+                <h3> Tekemistä ja tapahtumia Tampereen TietoTeekkarikillan alumneille ja alumnihenkisille.</h3> 
+                <p> TiTTu järjestää tapahtumia ympäri vuoden pääasiassa Tampereella ja Helsingissä. Tapahtumat ovat yleensä avoimia kaikille, mutta suunnitteilla saattaa olla myös pelkästään jäsenille suunnattuja tapahtumia, joten jäseneksi liittyminen on suositeltavaa. TiTTun tapahtumissa pääset tapaamaan opiskeluaikojen kavereita ja hoitamaan sosiaalisia suhteita samalla alalla työskentelevien kanssa.</p>
+            </div>
+
+            <div  class="col s12 m4 l4">
+                <div class="center promo promo-example">
+                    <h5 class="promo-caption">Afterworkit!</h5>
+                    <p class="light center">Noin kahden kuukauden välein Helsingissä ja Tampereella voit nauttia oluen tai kaksi töiden jälkeen. Järjestetään arkisin ja keskeisellä paikalla!</p>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="center promo promo-example">
+                    <h5 class="promo-caption">Seminaarit</h5>
+                    <p class="light center">Asiaa ajankohtaisesta aiheesta, verkostoitumista ja illan päätteeksi sauna virvokkeineen.</p>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="center promo promo-example">
+                    <h5 class="promo-caption">Saunaillat</h5>
+                    <p class="light center">Muistatko vielä Teekkarisauna Mörrimöykyn? Luvassa kosteita löylyjä ja alumnihenkistä seuraa.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+  <div class="divider"></div>
+
+<div id="jaseneksi" class="section scrollspy">
+    <div class="container">
+        <div class="row">
+            <h3>Liity jäseneksi</h3>
+            <p>TiTTun jäseneksi voivat liittyä kaikki Tampereen TietoTeekkarikillan alumnit ja alumnihenkiset. Toiminta suuntautuu yhä enemmän alumniyhdistystä kohden, joten sinun mielipiteelläsi ja näkemykselläsi on väliä! Tule mukaan osaksi prosessia ja tue TiTTun toimintaa jäsenmaksullasi! Jäsenmaksu vuodelle 2018 on 5 euroa.</p>
+
+            <p>Jäseneksi voit liittyä helposti alla olevalla PayPal -painikkeella, jonka avulla voit maksaa liittymismaksusi heti käyttäen PayPal -tunnusta tai yleisempiä maksukortteja. PayPal-maksu vaatii, että kotikuntasi on sama kuin asuinpaikkakuntasi. PayPal-maksu on toteutettu käyttäen PayPalin subscription -mallia, joten se ilmoittaa maksun olevan toistuva. Ennen seuraavan vuoden jäsenmaksun veloitusta asiasta lähetetään jäsenille ilmoitus. Voit myös liittyä jäseneksi täyttämällä jäsenhakemuslomakkeen, jolloin jäsenmaksutiedot lähetetään sinulle sähköpostitse.</p>
+
+            <form class="form-inline" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="8RMRATMCBKK2S">
+                <input type="submit" class="blue-grey darken-1 btn" name="submit" title="Liity jäseneksi PayPal -maksun kautta." value="PayPal - Liity ja maksa">
+                <a href="https://goo.gl/forms/YZABx6PvPFR7jzRn2" class="blue-grey darken-1 btn" role="button">Lomake - Liity ja maksa tilisiirrolla</a>
+            </form>
+        </div>
+    </div>
+</div>
+  <div class="divider"></div>
+<div id="hallitus" class="section scrollspy">
+    <div class="container">
+        <div class="row">
+            <h3>Hallitus</h3>
+            Puheenjohtaja Noora Vainio<br />
+            Rahastonhoitaja Viivi Ilvesmäki<br />
+            Sihteeri Noora Männikkö<br />
+            Hallituksen jäsen Mikko Jaatinen<br />
+            Hallituksen jäsen Veli-Matti Leppänen<br />
+            Hallituksen jäsen Tommi Linnamaa<br />
+            Hallituksen jäsen Juuso Piskonen<br />
+            Hallituksen jäsen Atte Saarinen<br />
+            Hallituksen jäsen Eeva Ylimäki<br />
+            Toimihenkilö Emmi Hallikainen<br />
+            Toimihenkilö Miika Heinonen<br />
+        </div>
+    </div>
+</div>
+  <div class="divider"></div>
+<div id="yhteystiedot" class="section scrollspy">
+    <div class="container">
+        <div class="row">
+            <h3>Yhteystiedot</h3>
+            <p>Otamme vastaan ideoita toiminnan kehittämiseksi. Olisiko sinulla mielessä alumnihenkinen tapahtuma, jonka tahtoisit TiTTun järjestävän? Vai tahtoisitko tehdä TiTTun kanssa yhteistyötä? Ota rohkeasti yhteyttä!</p>
+            <b>Sähköposti:</b> tittu [ät] list.tietoteekkarikilta.fi<br />
+            <b>Facebook:</b> <a href="https://www.facebook.com/groups/1410574695905154/">TiTe-Alumnit -ryhmä</a><br />
+            <b>LinkedIn:</b> <a href="https://www.linkedin.com/groups/4647152">TiTe Alumni</a><br />
+            <b>IRCnet:</b> #tite-alumnit
+        </div>
+    </div>
+</div>
+<footer class="page-footer blue-grey darken-2">
+    <div class="container blue-grey darken-2">
+        <p class="center"><small>© 2018 Tampereen TietoTeekkarien Alumnit, TiTTu ry</small></p>
+    </div>
+</footer>
+</body>
+</html>
+
