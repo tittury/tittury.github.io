@@ -1,7 +1,6 @@
 # TiTTun uudet sivut
 
-**Muokkaaminen**
-===
+## Muokkaaminen
 
 1. Varmista, että sinulla on oikeudet tittury-organisaatioon
 2. Kloonaa repo lokaaliin ympäristöön 
