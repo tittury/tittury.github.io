@@ -13,8 +13,22 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
       rel="stylesheet"
     />
+
+    <script>
+      function closeTerminal(name) {
+        var terminal = document.getElementById("terminal-" + name);
+        terminal.style.display = "none";
+      }
+      function formatVersion() {
+        var date = new Date();
+        var versionStr =
+          date.getFullYear().toString() + "." + date.getMonth().toString() + "." + date.getDay().toString();
+        var versionElem = document.getElementById("tittu-version");
+        versionElem.innerText = versionStr;
+      }
+    </script>
   </head>
-  <body>
+  <body onload="formatVersion()">
     <div class="container">
       <div class="flex-col centered">
         <img src="static/logo.png" alt="TiTTun logo" style="width: 200px" />
@@ -27,17 +41,17 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container" id="terminal-intro">
       <div class="terminal header">
         <div class="flex-row centered">
           <img src="static/logo.png" alt="TiTTun logo" />
           <b>Tekemistä ja tapahtumia alumneille ja alumnihenkisille</b>
-          <div class="square"></div>
+          <button class="square" onclick="closeTerminal('intro')"></button>
         </div>
       </div>
       <div class="terminal body flex-col">
         <span>
-          Tampereen TietoTeekkarien Alumnit, TiTTu ry [Versio 2.0.24]
+          Tampereen TietoTeekkarien Alumnit, TiTTu ry [Versio <span id="tittu-version">2.0.24</span>]
           <br />
           (C) 2024 TiTTu ry
           <br />
@@ -89,12 +103,12 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container" id="terminal-people">
       <div class="terminal header">
         <div class="flex-row centered">
           <img src="static/logo.png" alt="TiTTun logo" />
           <b>Tutustu tittulaisiin</b>
-          <div class="square"></div>
+          <button class="square" onclick="closeTerminal('people')"></button>
         </div>
       </div>
       <div class="terminal body flex-row">
