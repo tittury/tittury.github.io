@@ -5,7 +5,8 @@ body {
   font-family: "Roboto", monospace;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-size: x-large;
   font-weight: bold;
 }
@@ -26,16 +27,32 @@ footer {
   max-width: 1000px;
 }
 
+.buttons {
+  height: 45px;
+}
+
 .button {
   text-transform: uppercase;
   background-color: #239ae9;
-  color:#ffffff;
+  color: #ffffff;
   font-size: large;
   font-weight: bold;
   padding: 12px;
+  margin: 0 6px;
   filter: drop-shadow(4px 4px #444444);
   border-radius: 4px;
   text-decoration: none;
+}
+
+.instagram {
+  background-color: #ff0069;
+  padding: 0;
+}
+
+.instagram img {
+  width: 33px;
+  height: auto;
+  padding: 6px;
 }
 
 .square {
@@ -69,7 +86,7 @@ footer {
 
 .terminal.body {
   background-color: #222222;
-  color:#ffffff;
+  color: #ffffff;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
   flex-wrap: wrap;
