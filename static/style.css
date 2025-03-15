@@ -128,3 +128,10 @@ footer {
   vertical-align: middle;
   line-height: normal;
 }
+
+.calendar {
+  width: 100%;
+  height: 60vh;
+  border: none;
+  border-radius: 6px;
+}
