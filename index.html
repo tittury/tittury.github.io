@@ -22,7 +22,7 @@
       function formatVersion() {
         var date = new Date();
         var versionStr =
-          date.getFullYear().toString() + "." + date.getMonth().toString() + "." + date.getDay().toString();
+          date.getFullYear().toString() + "." + (date.getMonth()+1).toString() + "." + date.getDate().toString();
         var versionElem = document.getElementById("tittu-version");
         versionElem.innerText = versionStr;
       }
@@ -56,7 +56,7 @@
       </div>
       <div class="terminal body flex-col">
         <span>
-          Tampereen TietoTeekkarien Alumnit, TiTTu ry [Versio <span id="tittu-version">2.0.24</span>]
+          Tampereen TietoTeekkarien Alumnit, TiTTu ry [Versio <span id="tittu-version">2025</span>]
           <br />
           (C) 2025 TiTTu ry
           <br />
