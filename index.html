@@ -2,7 +2,7 @@
 <html lang="fi">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>TiTTu ry</title>
 
     <link rel="icon" type="image/png" href="static/logo.png" />
@@ -29,7 +29,7 @@
     </script>
   </head>
   <body onload="formatVersion()">
-    <div class="container">
+    <header aria-label="sivun headeri">
       <div class="flex-col centered">
         <img src="static/logo.png" alt="TiTTun logo" style="width: 200px" />
         <h1 class="flex-col centered margin-large">
@@ -44,14 +44,14 @@
           </a>
         </div>
       </div>
-    </div>
+    </header>
 
-    <div class="container" id="terminal-intro">
+    <section aria-label="järjestön intro">
       <div class="terminal header">
         <div class="flex-row centered">
           <img src="static/logo.png" alt="TiTTun logo" />
           <b>Tekemistä ja tapahtumia alumneille ja alumnihenkisille</b>
-          <button class="square" onclick="closeTerminal('intro')" tabindex="-1"></button>
+          <button class="square" onclick="closeTerminal('intro')" tabindex="-1" aria-label="X"></button>
         </div>
       </div>
       <div class="terminal body flex-col">
@@ -90,9 +90,9 @@
           <br />
         </span>
       </div>
-    </div>
+    </section>
 
-    <div class="container">
+    <section aria-label="jäseneksi liittyminen">
       <h2>Jäseneksi</h2>
       <p>
         TiTTun jäseneksi voivat liittyä kaikki Tampereen TietoTeekkarikillan alumnit ja alumnihenkiset. Toiminta
@@ -106,19 +106,23 @@
       <div class="flex-col centered margin-large buttons">
         <a href="https://forms.gle/qiRW6XgKFotcLK168" class="button">Liity tästä</a>
       </div>
-    </div>
+    </section>
 
-    <div class="container">
+    <section aria-label="tapahtumakalenteri">
       <h2>Tapahtumat</h2>
-      <iframe class="calendar" src="https://calendar.google.com/calendar/embed?src=0a5f1dcfa8786ecb2f04c1f13e95e91646108e07f9f9fce6e043e9bf49cd2749%40group.calendar.google.com&ctz=Europe%2FHelsinki"></iframe>
-    </div>
+      <iframe
+        class="calendar"
+        title="TiTTun tapahtumakalenteri Google Kalenterissa"
+        src="https://calendar.google.com/calendar/embed?src=0a5f1dcfa8786ecb2f04c1f13e95e91646108e07f9f9fce6e043e9bf49cd2749%40group.calendar.google.com&ctz=Europe%2FHelsinki"
+      ></iframe>
+    </section>
 
-    <div class="container" id="terminal-people">
+    <section aria-label="TiTTu-aktiivien esittely">
       <div class="terminal header">
         <div class="flex-row centered">
           <img src="static/logo.png" alt="TiTTun logo" />
           <b>Tutustu tittulaisiin</b>
-          <button class="square" onclick="closeTerminal('people')" tabindex="-1"></button>
+          <button class="square" onclick="closeTerminal('people')" tabindex="-1" aria-label="X"></button>
         </div>
       </div>
       <div class="terminal body flex-row">
@@ -157,9 +161,9 @@
           <br />
         </span>
       </div>
-    </div>
+    </section>
 
-    <div class="container">
+    <section aria-label="yhteystiedot ja linkit">
       <h2>Yhteystiedot</h2>
       <p>
         Otamme vastaan ideoita toiminnan kehittämiseksi. Olisiko sinulla mielessä alumnihenkinen tapahtuma, jonka
@@ -171,16 +175,16 @@
           <tr>
             <td>
               <div class="flex-row centered">
-                <img src="/static/icons/email.svg" />
+                <img src="/static/icons/email.svg" alt="sähköposti-ikoni" />
                 <b>Sähkö&shy;posti</b>
               </div>
             </td>
-            <td>tittu [ät] list.tietoteekkari<wbr>kilta.fi</td>
+            <td>tittu [ät] list.<wbr>tieto<wbr>teekkari<wbr>kilta.fi</td>
           </tr>
           <tr>
             <td>
               <div class="flex-row centered">
-                <img src="/static/icons/code.svg" />
+                <img src="/static/icons/code.svg" alt="koodi-ikoni" />
                 <b>IRCnet</b>
               </div>
             </td>
@@ -189,7 +193,7 @@
           <tr>
             <td>
               <div class="flex-row centered">
-                <img src="/static/icons/info.svg" />
+                <img src="/static/icons/info.svg" alt="info-ikoni" />
                 <b>Tiedotus&shy;kanava</b>
               </div>
             </td>
@@ -226,9 +230,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <footer class="flex-col centered">
+    <footer class="flex-col centered" aria-label="sivun footer">
       <small>© 2025 Tampereen TietoTeekkarien Alumnit, TiTTu ry</small>
     </footer>
   </body>

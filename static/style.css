@@ -18,10 +18,11 @@ a {
 footer {
   background-color: #222222;
   color: #ffffff;
-  padding: 16px 0;
+  padding: 16px;
+  text-align: center;
 }
 
-.container {
+header, section {
   margin: 64px auto 64px auto;
   padding: 0 16px 0 16px;
   max-width: 1000px;
